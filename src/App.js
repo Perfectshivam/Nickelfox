@@ -6,6 +6,8 @@ import { Store, persistor } from "@redux";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { defaultTheme } from "./themes/defaultTheme";
 
+
+
 /**
  * @description Check if browser is Safar
  * @description It'll be usefull for web notifications
@@ -28,6 +30,7 @@ function App() {
         </ThemeProvider>
       </PersistGate>
     </Provider>
+
   );
 }
 
